@@ -1,0 +1,87 @@
+{
+	"name": "formaloo-todo",
+	"version": "1.0.0",
+	"private": true,
+	"scripts": {
+		"dev": "webpack serve --config internals/webpack/webpack.dev.js",
+		"webpack": "webpack",
+		"prod": "npm run webpack -- --env mode=production"
+	},
+	"dependencies": {
+		"@reduxjs/toolkit": "^1.8.2",
+		"@testing-library/jest-dom": "^5.16.4",
+		"@testing-library/react": "^13.3.0",
+		"@testing-library/user-event": "^13.5.0",
+		"axios": "^0.27.2",
+		"body-parser": "^1.20.1",
+		"bootstrap": "^5.2.3",
+		"clsx": "^1.2.1",
+		"cors": "^2.8.5",
+		"express": "^4.18.2",
+		"interpolate-html-plugin": "^4.0.0",
+		"path": "^0.12.7",
+		"prop-types": "^15.8.1",
+		"react": "^18.1.0",
+		"react-bootstrap": "^2.7.2",
+		"react-dom": "^18.1.0",
+		"react-redux": "^8.0.2",
+		"react-router-dom": "^6.3.0",
+		"react-scripts": "5.0.1",
+		"redux-persist": "^6.0.0",
+		"redux-saga": "^1.1.3",
+		"sass": "^1.54.0",
+		"serve": "^13.0.2",
+		"web-vitals": "^2.1.4",
+		"webpack": "^5.73.0",
+		"webpack-cli": "^4.10.0",
+		"webpack-merge": "^5.8.0",
+		"webpack-pwa-manifest": "^4.3.0",
+		"workbox-background-sync": "^6.5.3",
+		"workbox-broadcast-update": "^6.5.3",
+		"workbox-cacheable-response": "^6.5.3",
+		"workbox-core": "^6.5.3",
+		"workbox-expiration": "^6.5.3",
+		"workbox-google-analytics": "^6.5.3",
+		"workbox-navigation-preload": "^6.5.3",
+		"workbox-precaching": "^6.5.3",
+		"workbox-range-requests": "^6.5.3",
+		"workbox-routing": "^6.5.3",
+		"workbox-strategies": "^6.5.3",
+		"workbox-streams": "^6.5.3"
+	},
+	"devDependencies": {
+		"@babel/core": "^7.18.9",
+		"@babel/preset-env": "^7.18.9",
+		"@babel/preset-react": "^7.18.6",
+		"babel-loader": "^8.2.5",
+		"babel-plugin-transform-class-properties": "^6.24.1",
+		"babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
+		"html-webpack-plugin": "^5.5.0",
+		"node-sass": "^7.0.1",
+		"pre-commit": "^1.2.2",
+		"prettier": "2.6.1",
+		"redux-devtools-extension": "^2.13.9",
+		"sass-loader": "^13.0.2"
+	},
+	"prettier": {
+		"singleQuote": true,
+		"tabWidth": 2,
+		"useTabs": true,
+		"semi": true,
+		"jsxSingleQuote": true,
+		"proseWrap": "always",
+		"singleAttributePerLine": true
+	},
+	"browserslist": {
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		]
+	}
+}
