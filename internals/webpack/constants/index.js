@@ -5,7 +5,7 @@ module.exports = {
 	PATHS: {
 		PUBLIC_DIR: '/',
 		APP_DIR: path.join(process.cwd(), 'src/'),
-		BUILD_DIR: path.join(process.cwd(), 'dist'),
+		BUILD_DIR: path.join(process.cwd(), 'build'),
 		OUTPUT_DIR: path.join(process.cwd(), 'dist'),
 	},
 };
