@@ -1,9 +1,12 @@
 {
+	"homepage": "http//minaghorbaani.github.io/todo-app",
 	"name": "formaloo-todo",
 	"version": "1.0.0",
 	"private": true,
 	"scripts": {
 		"dev": "webpack serve --config internals/webpack/webpack.dev.js",
+		"predeploy": "yarn build",
+		"deploy": "gh-pages -d build",
 		"webpack": "webpack",
 		"build": "webpack --config internals/webpack/webpack.prod.js"
 	},
